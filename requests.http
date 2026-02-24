@@ -38,4 +38,3 @@ content-Type: application/json
 
 ###test
 DELETE {{baseUrl}}/api/orders/{{orderId}}
-DELETE {{baseUrl}}/api/orders/{{orderId}}
