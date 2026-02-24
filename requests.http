@@ -36,5 +36,6 @@ content-Type: application/json
   "cardHolderName": "John Doe"
 }
 
-###
+###test
+DELETE {{baseUrl}}/api/orders/{{orderId}}
 DELETE {{baseUrl}}/api/orders/{{orderId}}
