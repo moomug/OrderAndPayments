@@ -8,7 +8,8 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Order> Orders => Set<Order>();
 
     protected override void OnModelCreating(ModelBuilder builder)
-    {
+    {   
+        //take builder as argument 
         base.OnModelCreating(builder);
         builder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
